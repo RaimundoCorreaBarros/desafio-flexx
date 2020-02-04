@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 5 - Flexx</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+        .container {
+            display: flex;
+            margin: 0;
+            width: 600px;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin: 0;
+        }
+        li {
+            flex-grow: 1;
+            flex-basis: 130px;
+            margin-right: 15px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .central img {
+            width: 600px;
+            height: 150px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><img src="img/lion-1.jpg" alt=""></li>
+            <li><img src="img/rhino-2.jpg" alt=""></li>
+            <li><img src="img/elephant-1.jpg" alt=""></li>
+            <li><img src="img/lion-2.jpg" alt=""></li>
+            <li class="central"><img src="img/forest.jpg" alt=""></li>          
+            <li><img src="img/rhino-3.jpg" alt=""></li>
+            <li><img src="img/lion-3.jpg" alt=""></li>
+            <li><img src="img/elephant-2.jpg" alt=""></li>
+            <li><img src="img/rhino-1.jpg" alt=""></li>
+        </ul> 
+    </div>
+
+</body>
+</html>
